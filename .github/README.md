@@ -11,17 +11,17 @@ Install and configure GNU coreutils.
 * [Supported Operating Systems](#supported-operating-systems)
 * [Quick Start](#quick-start)
     * [Use From Playbook](#use-from-playbook)
-* [Role Options](#role-options)
 * [Contributing](#contributing)
 
 ## Purpose
 
-* Install the [GNU coreutils](https://github.com/junegunn/fzf) command-line fuzzy finder.
-* Configure fzf for terminal use and use in other programs.
+* Install the [GNU coreutils](https://www.maizure.org/projects/decoded-gnu-coreutils/).
+* Export [coreutils command vars](../tasks/export_vars/linux/main.yml) for other
+  roles to use.
 
 ## Supported Operating Systems
 
-* Ubuntu kinetic (22.04)
+* Ubuntu
 * Arch Linux
 * FreeBSD
 
@@ -51,17 +51,11 @@ Install and configure GNU coreutils.
    - hosts: localhost
      connection: local
      tasks:
-       - name: "Install and configure the fzf command-line fuzzy finder"
+       - name: "Install and configure GNU coreutils"
          ansible.builtin.include_role:
            name: ans_role_config_gnu_coreutils
            public: yes
    ```
-
-## Role Options
-
-See the role `defaults` files for main role vars listings:
-
-  * [defaults](../defaults/main/)
 
 ## Contributing
 

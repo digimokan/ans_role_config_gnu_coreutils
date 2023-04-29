@@ -1,0 +1,8 @@
+- name: "Export GNU coreutils command vars for Linux"
+  ansible.builtin.include_tasks: linux/main.yml
+  when: ansible_system == "Linux"
+
+- name: "Export GNU coreutils command vars for FreeBSD"
+  ansible.builtin.include_tasks: freebsd/main.yml
+  when: ansible_os_family == "FreeBSD"
+
