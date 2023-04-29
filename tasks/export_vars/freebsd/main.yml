@@ -28,7 +28,6 @@
     gnu_coreutils_groups_cmd: 'ggroups'
     gnu_coreutils_head_cmd: 'ghead'
     gnu_coreutils_hostid_cmd: 'ghostid'
-    gnu_coreutils_hostid_cmd: 'ghostid'
     gnu_coreutils_hostname_cmd: 'ghostname'
     gnu_coreutils_id_cmd: 'gid'
     gnu_coreutils_install_cmd: 'ginstall'
