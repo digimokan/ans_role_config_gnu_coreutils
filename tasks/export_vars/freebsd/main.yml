@@ -42,7 +42,7 @@
     gnu_coreutils_mkdir_cmd: 'gmkdir'
     gnu_coreutils_mkfifo_cmd: 'gmkfifo'
     gnu_coreutils_mknod_cmd: 'gmknod'
-    gnu_coreutils_mv_cmd_cmd: 'gmv'
+    gnu_coreutils_mv_cmd: 'gmv'
     gnu_coreutils_nice_cmd: 'gnice'
     gnu_coreutils_nl_cmd: 'gnl'
     gnu_coreutils_nohup_cmd: 'gnohup'
