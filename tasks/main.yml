@@ -4,3 +4,6 @@
 - name: "Export GNU coreutils command vars"
   ansible.builtin.include_tasks: export_vars/main.yml
 
+- name: "Export useful command-string invocations for other roles"
+  ansible.builtin.include_tasks: export_cmd_strings/main.yml
+

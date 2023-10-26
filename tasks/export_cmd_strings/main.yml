@@ -1,0 +1,4 @@
+- name: "Export command-sring vars for ext roles to use"
+  ansible.builtin.set_fact:
+    less_auto_page_with_raw_input_cmd: 'less --RAW-CONTROL-CHARS --quit-if-one-screen'
+
